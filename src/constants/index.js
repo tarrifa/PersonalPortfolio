@@ -122,7 +122,10 @@ import {
       iconBg: "#383E56",
       date: "March 2015 - February 2019",
       points: [
-        "Front End Development using React Js Javascript, HTML and CSS",
+        "Proficient in HTML, CSS, and JavaScript, with experience in building responsive and user-friendly websites.",
+"Strong understanding of front-end development principles, including web standards, browser compatibility, and accessibility.",
+"Experience with popular front-end frameworks such as React",
+"Familiarity with version control systems such as Git and knowledge of agile methodologies"
       ],
     },
     {
@@ -132,8 +135,10 @@ import {
       iconBg: "#E6DEDD",
       date: "March 2019 - September 2020",
       points: [
-        "Fullstack Development using MongoDB, ExpressJS, React JS and NodeJs, leading frontend team",
-     ],
+        "Proficient in the MERN (MongoDB, Express.js, React, Node.js) stack, with experience building full-stack web applications from scratch.",
+        "Strong understanding of web development principles, including web standards, browser compatibility, and accessibility.",
+        "Experience with building RESTful APIs and integrating them with front-end applications.",
+        "Strong understanding of database concepts and experience working with MongoDB or other NoSQL databases."  ],
     },
     {
       title: "Clinical Data Manager",
@@ -162,7 +167,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Implement agile methodologies in NextJS, ReactJs, React Native and AWS in different products",
+        "Proficient in mobile development using React Native, with experience building and deploying mobile applications for both iOS and Android platforms.",
+        "Strong understanding of mobile development principles, including mobile-specific design patterns, performance optimization, and usability.",
+        "Experience integrating mobile applications with Firebase services such as Firestore, Cloud Storage, and Cloud Functions.",
+        "Strong understanding of user experience (UX) and user interface (UI) design principles, with experience using Figma or other design tools"
       ],
     },
   ];
@@ -187,7 +195,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/tarrifa/Colmedica-Paciente",
     },
     {
       name: "Play Green",
