@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[630px]'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -52,7 +52,7 @@ const ProjectCard = ({
           <p className='mt-2 text-teal-100 text-[14px]'>{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        <div className='absolute flex flex-wrap gap-2 inset-x-0 bottom-0 mb-2'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -97,4 +97,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "works");

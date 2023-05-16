@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Soon to be AWS expert",
+      title: "AWS",
       icon: creator,
     },
   ];
@@ -116,51 +116,6 @@ import {
   
   const experiences = [
     {
-      title: "Junior Programmer",
-      company_name: "TaxAdminSAS",
-      
-      iconBg: "#383E56",
-      date: "March 2015 - February 2019",
-      points: [
-        "Proficient in HTML, CSS, and JavaScript, with experience in building responsive and user-friendly websites.",
-"Strong understanding of front-end development principles, including web standards, browser compatibility, and accessibility.",
-"Experience with popular front-end frameworks such as React",
-"Familiarity with version control systems such as Git and knowledge of agile methodologies"
-      ],
-    },
-    {
-      title: "FullSatck Engineer",
-      company_name: "TAD",
-      icon: TAD,
-      iconBg: "#E6DEDD",
-      date: "March 2019 - September 2020",
-      points: [
-        "Proficient in the MERN (MongoDB, Express.js, React, Node.js) stack, with experience building full-stack web applications from scratch.",
-        "Strong understanding of web development principles, including web standards, browser compatibility, and accessibility.",
-        "Experience with building RESTful APIs and integrating them with front-end applications.",
-        "Strong understanding of database concepts and experience working with MongoDB or other NoSQL databases."  ],
-    },
-    {
-      title: "Clinical Data Manager",
-      company_name: "MSD",
-      icon: MSD,
-      iconBg: "#383E56",
-      date: "October 2020 - February 2021",
-      points: [
-        "Data Management in Oncology Clinical Trials.",
-      ],
-    },
-    {
-      title: "Site Managment Coordinator",
-      company_name: "IQVIA",
-      icon: IQVIA,
-      iconBg: "#E6DEDD",
-      date: "March 2021 - March 2022",
-      points: [
-        "Coordinated and Managed more than 25 clinical trials.",
-       ],
-    },
-    {
       title: "Software Engineer",
       company_name: "TAD",
       icon: TAD,
@@ -173,37 +128,61 @@ import {
         "Strong understanding of user experience (UX) and user interface (UI) design principles, with experience using Figma or other design tools"
       ],
     },
+    {
+      title: "Site Managment Coordinator",
+      company_name: "IQVIA",
+      icon: IQVIA,
+      iconBg: "#E6DEDD",
+      date: "March 2021 - March 2022",
+      points: [
+        "Coordinated and Managed more than 25 clinical trials.",
+      ],
+    },
+    {
+      title: "Clinical Data Manager",
+      company_name: "MSD",
+      icon: MSD,
+      iconBg: "#383E56",
+      date: "October 2020 - February 2021",
+      points: [
+        "Data Management in Oncology Clinical Trials.",
+      ],
+    },
+    {
+      title: "FullSatck Engineer",
+      company_name: "TAD",
+      icon: TAD,
+      iconBg: "#E6DEDD",
+      date: "March 2019 - September 2020",
+      points: [
+        "Proficient in the MERN (MongoDB, Express.js, React, Node.js) stack, with experience building full-stack web applications from scratch.",
+        "Strong understanding of web development principles, including web standards, browser compatibility, and accessibility.",
+        "Experience with building RESTful APIs and integrating them with front-end applications.",
+        "Strong understanding of database concepts and experience working with MongoDB or other NoSQL databases."
+      ],
+    },
+    {
+      title: "Junior Programmer",
+      company_name: "TaxAdminSAS",
+      iconBg: "#383E56",
+      date: "March 2015 - February 2019",
+      points: [
+        "Proficient in HTML, CSS, and JavaScript, with experience in building responsive and user-friendly websites.",
+        "Strong understanding of front-end development principles, including web standards, browser compatibility, and accessibility.",
+        "Experience with popular front-end frameworks such as React",
+        "Familiarity with version control systems such as Git and knowledge of agile methodologies"
+      ],
+    },
   ];
   
   const projects = [
     {
       name: "Colmedica Health Tracker Demo",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The web-based app developed in React and powered by Firebase is a comprehensive and user-friendly solution designed for medical tracking purposes, specifically tailored for Colmedica. This cutting-edge application seamlessly integrates various functionalities to streamline and enhance medical processes.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/tarrifa/Colmedica-Paciente",
-    },
-    {
-      name: "Play Green",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
@@ -211,7 +190,28 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwindcss",
+          name: "Redux",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/tarrifa/Colmedica-Paciente",
+    },
+    {
+      name: "Play Green Web responsive Challenge",
+      description:
+        "The web-based app, built with React and powered by Firebase, is a responsive and mobile-friendly platform that allows users to select and track their favorite football team. With its user-friendly interface and cross-device compatibility, this app offers a convenient and engaging experience for football enthusiasts to stay connected with their favorite teams on the go.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwindcss",
           color: "pink-text-gradient",
         },
       ],
@@ -221,10 +221,10 @@ import {
     {
       name: "Burger Restaurant Challenge",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The web-based app, built with React and powered by Firebase, is a responsive platform designed for a burger restaurant. It allows customers to browse the menu, customize orders, and track delivery or pickup status.",
       tags: [
         {
-          name: "ReactJs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
@@ -232,7 +232,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwindcss",
+          name: "Tailwindcss",
           color: "pink-text-gradient",
         },
       ],
