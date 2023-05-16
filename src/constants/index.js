@@ -14,10 +14,10 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    
     MSD,
     TAD,
-    tesla,
+    python,
     IQVIA,
     carrent,
     jobit,
@@ -109,8 +109,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "python",
+      icon: python,
     },
   ];
   
