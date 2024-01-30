@@ -9,6 +9,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import python from "./tech/python.png";
+import appit from "./tech/appit.png"
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -27,12 +28,14 @@ import TAD from "./company/TAD.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./Colmedica.png";
+import starlight from "./starlight.png"
 import jobit from "./Play Green.png";
 import tripguide from "./GoodHambburger.png";
 
 export {
   logo,
   backend,
+  appit,
   creator,
   mobile,
   web,
@@ -59,4 +62,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  starlight
 };
