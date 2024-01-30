@@ -14,7 +14,7 @@ import {
     mongodb,
     git,
     figma,
-    
+    appit,
     MSD,
     TAD,
     python,
@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    starlight,
   } from "../assets";
   
   export const navLinks = [
@@ -116,11 +117,25 @@ import {
   
   const experiences = [
     {
+      title: "Sr Mobile Developer",
+      company_name: "AppIt",
+      icon: appit,
+      iconBg: "#E6DEDD",
+      date: "Jun 2023 - Present",
+      points: [
+        "Proficient in mobile development using React Native, with experience building and deploying mobile applications for both iOS and Android platforms.",
+        "Strong understanding of mobile development principles, including mobile-specific design patterns, performance optimization, and usability.",
+        "Updated technologies on the current mobile app used by the users, so it met modern dependencies",
+        "UX UI application on the new app re design for the tablet version of the mobile app",
+        "Strong understanding of user experience (UX) and user interface (UI) design principles, with experience using Figma or other design tools"
+      ],
+    },
+    {
       title: "Software Engineer",
       company_name: "TAD",
       icon: TAD,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - Jun 2023",
       points: [
         "Proficient in mobile development using React Native, with experience building and deploying mobile applications for both iOS and Android platforms.",
         "Strong understanding of mobile development principles, including mobile-specific design patterns, performance optimization, and usability.",
@@ -177,6 +192,23 @@ import {
   
   const projects = [
     {
+      name: "Starlight Drivers App",
+      description:
+        "The mobile app for drivers created by starlight for their users. I updated it to modern React native, redux and typescript technologies so it met modern technologies and dependencies. Also, I worked on the UX UI and development of the ongoing new drivers tablet app ",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: starlight,
+      source_code_link: "https://github.com/tarrifa/Colmedica-Paciente",
+    },
+    {
       name: "Colmedica Health Tracker Demo",
       description:
         "The web-based app developed in React and powered by Firebase is a comprehensive and user-friendly solution designed for medical tracking purposes, specifically tailored for Colmedica. This cutting-edge application seamlessly integrates various functionalities to streamline and enhance medical processes.",
@@ -195,7 +227,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/tarrifa/Colmedica-Paciente",
+      source_code_link: "https://apps.apple.com/us/app/starlight-drivers/id1604452672",
     },
     {
       name: "Play Green Web responsive Challenge",
